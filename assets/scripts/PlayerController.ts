@@ -136,6 +136,6 @@ update(deltaTime: number) {
         }
 
         velocity.x = 0;
-        this.rb.linearVelocity = velocity;
+        this.rb.linearVelocity = velocity; 
     }
 }
